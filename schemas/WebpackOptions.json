@@ -878,7 +878,7 @@
       "description": "Enable production optimizations or development hints.",
       "enum": ["development", "production", "none"]
     },
-    "Module": {
+    "ModuleOptions": {
       "description": "Options affecting the normal modules (`NormalModuleFactory`).",
       "type": "object",
       "additionalProperties": false,
@@ -3081,7 +3081,7 @@
           "$ref": "#/definitions/Mode"
         },
         "module": {
-          "$ref": "#/definitions/Module"
+          "$ref": "#/definitions/ModuleOptions"
         },
         "name": {
           "$ref": "#/definitions/Name"
@@ -3215,7 +3215,7 @@
       "$ref": "#/definitions/Mode"
     },
     "module": {
-      "$ref": "#/definitions/Module"
+      "$ref": "#/definitions/ModuleOptions"
     },
     "name": {
       "$ref": "#/definitions/Name"
